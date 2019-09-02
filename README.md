@@ -18,7 +18,7 @@ Where:
 - `TZ`: Your timezone
 - `/tmp/comskip`: Temp folder for transcoding. This should be local, fast, and have enough free space for ~2x your largest video.  
 - `/home/user/videos/recordings/`: The folder where the recording with comercials are saved.
-- `/data/recorded-video-file.ts`: The actual file that needs commercials removed.  In the container the folder is "/data" so prefix /data/ infront of the file name.
+- `/data/recorded-video-file.ts`: The actual file that needs commercials removed. Prefix "/data/" in front of the file name.
 
 The docker image can also be used as a post processing script.  
 Example of a post processing script to run running on docker host:
