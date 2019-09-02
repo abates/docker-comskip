@@ -21,7 +21,7 @@ Where:
 - `/data/recorded-video-file.ts`: The actual file that needs commercials removed. Prefix "/data/" in front of the file name.
 
 The docker image can also be used as a post processing script.  
-Example of a post processing script to run running on docker host:
+Example of a post processing script to run on docker host:
 
 ```shell
 #!/bin/bash
