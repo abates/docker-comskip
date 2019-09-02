@@ -1,6 +1,6 @@
 # Comskip, Dockerized and on Alpine
 
-Runs on alpine linux (103MB total size) and includes the latest comskip from github.com.  
+Runs on Alpine linux (103MB total size) and includes the latest comskip from github.com.  
 Also includes ekim1337's python script that runs comskip, removes the found commercials from the video, and finally replaces the original video with the commercial-less video file.
 
 ```shell
@@ -20,7 +20,7 @@ Where:
 - `/home/user/videos/recordings/`: The folder where the recording with comercials are saved.
 - `/data/recorded-video-file.ts`: The actual file that needs commercials removed.  In the container the folder is "/data" so prefix /data/ infront of the file name.
 
-The docker image can also be used as a post processing script.
+The docker image can also be used as a post processing script.  
 Example of a post processing script to run running on docker host:
 
 ```shell
