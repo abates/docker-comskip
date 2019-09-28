@@ -5,7 +5,7 @@ Also includes ekim1337's python script that runs comskip, removes the found comm
 
 ```shell
 docker run --rm -d \
-    -e TZ="America/New_York" \
+    -e TZ=America/New_York \
     -v /tmp/comskip:/tmp \
     -v /home/user/videos/recordings/:/data \
     djaydev/comskip \
